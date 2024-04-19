@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>LaceUp</title>
+    <link rel="stylesheet" href="./css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0"
+    />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul class="sidebar">
+          <li onclick="hideSidebar();">
+            <a href="#">
+              <span class="material-symbols-outlined"> close </span>
+            </a>
+          </li>
+          <li><a href="/index.html">Home</a></li>
+          <li><a href="/collections.html">Collection</a></li>
+          <li><a href="#">About Us</a></li>
+          <li><a href="#">Contact</a></li>
+          <li><a href="#">Sign In / Register</a></li>
+        </ul>
+
+        <ul>
+          <li id="logo"><a href="#">LaceUp</a></li>
+          <li class="hideOnMobile"><a href="/index.html">Home</a></li>
+          <li class="hideOnMobile">
+            <a href="/collections.html">Collection</a>
+          </li>
+          <li class="hideOnMobile"><a href="#">About</a></li>
+          <li class="hideOnMobile"><a href="#">Contact</a></li>
+          <li class="hideOnMobile">
+            <a href="/"
+              ><span class="material-symbols-outlined" style="font-size: 30px">
+                shopping_cart
+              </span></a
+            >
+          </li>
+          <li class="menuButton" onclick="showSidebar();">
+            <a href="#"
+              ><span class="material-symbols-outlined"> menu </span></a
+            >
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <div class="bgImg"><img src="./images/bg_img.png" alt="bg_logo" /></div>
+
+    <div class="container">
+      <h1 class="heading">Collection</h1>
+
+      <div class="boxContainer">
+        <div class="box">
+          <img src="/images/adidas1.avif" alt="Shoe1" />
+          <h3>Adidas PREDATOR ELITE FOLDOVER TONGUE</h3>
+          <h4>Price</h4>
+          <button class="addToCart">Add To Cart</button>
+        </div>
+
+        <div class="box">
+          <img src="/images/nike1.png" alt="Shoe4" />
+          <h3>Nike Phantom Luna 2 Elite</h3>
+          <h4>Price</h4>
+          <button class="addToCart">Add To Cart</button>
+        </div>
+
+        <div class="box">
+          <img src="/images/puma1.avif" alt="Shoe7" />
+          <h3>Puma FUTURE 7 ULTIMATE</h3>
+          <h4>Price</h4>
+          <button class="addToCart">Add To Cart</button>
+        </div>
+      </div>
+    </div>
+
+    <footer>
+      <a href="#">Privacy Policy</a> | <a href="#">Terms & Conditions</a> |
+      <a href="#">Cookies</a>
+      <p>&#169; LaceUp Marketing Pvt. Ltd.</p>
+    </footer>
+
+    <script src="./js/script.js"></script>
+  </body>
+</html>
