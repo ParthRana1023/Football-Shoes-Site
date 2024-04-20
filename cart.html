@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Collections</title>
-    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/style-cart.css" />
     <link
       rel="stylesheet"
       href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0"
@@ -12,7 +12,7 @@
   </head>
   <body>
     <header>
-      <nav>
+      <nav style="position: relative; background: black">
         <ul class="sidebar">
           <li onclick="hideSidebar();">
             <a href="#">
@@ -20,7 +20,7 @@
             </a>
           </li>
           <li><a href="/index.html">Home</a></li>
-          <li><a href="/collections.html">OUR COLLECTION</a></li>
+          <li><a href="/collections.html">Collection</a></li>
           <li><a href="#">About Us</a></li>
           <li><a href="#">Contact</a></li>
           <li><a href="#">Sign In / Register</a></li>
@@ -50,9 +50,101 @@
       </nav>
     </header>
 
-    <div>
-      <div class="items">
-        <h2>Your Bag</h2>
+    <div class="items">
+      <h1>Your Bag</h1>
+      <div class="addedToCart">
+        <h3>Delivery Date: Tuesday, Apr 23</h3>
+        <div class="yourCart">
+          <img src="./images/adidas1.avif" alt="" />
+          <h3>Adidas PREDATOR ELITE FOLDOVER TONGUE</h3>
+
+          <div class="price">
+            <h4>Price</h4>
+            <h4>₹29,999</h4>
+            <p>Quantity: 1</p>
+            <button>Remove</button>
+          </div>
+
+          <div>
+            <h3>Choose Delivery Date</h3>
+            <div class="delivery">
+              <div>
+                <input type="radio" name="delivery-option2" id="radio4" />
+                <label for="radio4">Monday</label>
+              </div>
+              <div>
+                <input type="radio" name="delivery-option2" id="radio5" />
+                <label for="radio5">Tuesday</label>
+              </div>
+              <div>
+                <input type="radio" name="delivery-option2" id="radio6" />
+                <label for="radio6">Wednesday</label>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <h3>Delivery Date: Tuesday, Apr 23</h3>
+        <div class="yourCart">
+          <img src="./images/puma1.avif" alt="" />
+          <h3>Puma FUTURE 7 ULTIMATE</h3>
+
+          <div class="price">
+            <h4>Price</h4>
+            <h4>₹19,999</h4>
+            <p>Quantity: 1</p>
+            <button>Remove</button>
+          </div>
+
+          <div>
+            <h3>Choose Delivery Date</h3>
+            <div class="delivery">
+              <div>
+                <input type="radio" name="delivery-option2" id="radio4" />
+                <label for="radio4">Monday</label>
+              </div>
+              <div>
+                <input type="radio" name="delivery-option2" id="radio5" />
+                <label for="radio5">Tuesday</label>
+              </div>
+              <div>
+                <input type="radio" name="delivery-option2" id="radio6" />
+                <label for="radio6">Wednesday</label>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <h3>Delivery Date: Wednesday, Apr 24</h3>
+        <div class="yourCart">
+          <img src="./images/nike1.png" alt="" />
+          <h3>Nike Phantom Luna 2 Elite</h3>
+
+          <div class="price">
+            <h4>Price</h4>
+            <h4>₹27,995</h4>
+            <p>Quantity: 1</p>
+            <button>Remove</button>
+          </div>
+
+          <div>
+            <h3>Choose Delivery Date</h3>
+            <div class="delivery">
+              <div>
+                <input type="radio" name="delivery-option3" id="radio7" />
+                <label for="radio7">Monday</label>
+              </div>
+              <div>
+                <input type="radio" name="delivery-option3" id="radio8" />
+                <label for="radio8">Tuesday</label>
+              </div>
+              <div>
+                <input type="radio" name="delivery-option3" id="radio9" />
+                <label for="radio9">Wednesday</label>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
 
